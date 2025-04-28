@@ -86,17 +86,17 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   const handleDownload = () => {
     // Example resume file - in a real app, replace with your actual resume file path
     const dummyContent = `
-    John Doe
+    Mahmoud Altayeb
     Full Stack Developer
     
     Experience:
-    - Senior Developer at Tech Corp
-    - Lead Developer at StartupX
+    - Senior Wordpress Developer at Trenddc
+    - Web Developer at ym11 solutions 
     
     Skills:
     - React, TypeScript, Node.js
     - MongoDB, PostgreSQL
-    - AWS, Docker
+    - Docker
     `;
 
     const blob = new Blob([dummyContent], { type: 'text/plain' });

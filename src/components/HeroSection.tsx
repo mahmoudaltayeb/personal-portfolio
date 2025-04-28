@@ -50,7 +50,7 @@ const HeroSection: React.FC = () => {
     <section ref={heroRef} className="min-h-screen flex flex-col justify-center items-center relative px-4">
       <div className="text-center max-w-4xl mx-auto">
         <AnimatedText 
-          text="Full Stack Developer" 
+          text="Software Developer" 
           className="text-xl font-light tracking-wider text-highlight mb-4"
           delay={0.2}
           duration={0.5}

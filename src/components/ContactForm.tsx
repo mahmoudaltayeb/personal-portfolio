@@ -172,10 +172,10 @@ const ContactForm: React.FC = () => {
               <div>
                 <h4 className="font-medium">Email</h4>
                 <a 
-                  href="mailto:contact@example.com" 
+                  href="mailto:altayebm804@gmail.com" 
                   className="text-lightText/70 hover:text-highlight transition-colors"
                 >
-                  contact@example.com
+                  altayebm804@gmail.com
                 </a>
               </div>
             </div>
@@ -185,25 +185,10 @@ const ContactForm: React.FC = () => {
               <div>
                 <h4 className="font-medium">Phone</h4>
                 <a 
-                  href="tel:+1234567890" 
+                  href="tel:+201124912436" 
                   className="text-lightText/70 hover:text-highlight transition-colors"
                 >
-                  +1 (234) 567-890
-                </a>
-              </div>
-            </div>
-            
-            <div className="flex items-start">
-              <Link className="text-highlight mr-4 mt-1" />
-              <div>
-                <h4 className="font-medium">Website</h4>
-                <a 
-                  href="https://www.example.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-lightText/70 hover:text-highlight transition-colors"
-                >
-                  www.example.com
+                  +20 1124912436
                 </a>
               </div>
             </div>
@@ -212,7 +197,7 @@ const ContactForm: React.FC = () => {
           <h3 className="text-2xl font-semibold mt-10 mb-6">Connect</h3>
           <div className="contact-socials flex space-x-5">
             <a 
-              href="#" 
+              href="https://github.com/mahmoudaltayeb" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="social-link bg-secondary hover:bg-highlight/20 transition-colors duration-300 p-3 rounded-full"
@@ -220,7 +205,7 @@ const ContactForm: React.FC = () => {
               <Github size={20} />
             </a>
             <a 
-              href="#" 
+              href="https://www.linkedin.com/in/mahmoud-altayeb/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="social-link bg-secondary hover:bg-highlight/20 transition-colors duration-300 p-3 rounded-full"

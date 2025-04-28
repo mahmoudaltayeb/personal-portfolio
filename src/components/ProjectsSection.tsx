@@ -5,33 +5,33 @@ import ProjectCard, { ProjectProps } from './ProjectCard';
 
 const projects: ProjectProps[] = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured e-commerce platform built with React, Node.js, and MongoDB. Includes user authentication, product catalog, shopping cart, and payment processing with Stripe.",
-    imageSrc: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=2426&q=80",
-    liveUrl: "#",
+    title: "News platform",
+    description: "A full-featured news platform built with next and headless wordpress.",
+    imageSrc: "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    liveUrl: "https://alelm.net/",
     githubUrl: "#",
-    techStack: ["React", "Node.js", "MongoDB", "Express", "Stripe API"],
+    techStack: ["Next", "Wordpress", "mysql"],
     featured: true,
     index: 0
   },
   {
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates using Socket.io. Features include task assignment, due date tracking, and project organization.",
+    title: "Travel Booking Website ",
+    description: "A travel agency site with multilingual support (3 languages). Features include trip listings, detailed itineraries, and a seamless booking system, all designed for an intuitive user experience from scratch.",
     imageSrc: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=3882&q=80",
     liveUrl: "#",
     githubUrl: "#",
-    techStack: ["React", "TypeScript", "Socket.io", "Firebase", "Tailwind CSS"],
+    techStack: ["Wordpress", "Custom theme", "mysql"],
     index: 1
   },
   {
-    title: "Weather Dashboard",
-    description: "A weather forecasting application that utilizes the OpenWeather API to provide current conditions and 7-day forecasts. Includes location-based searches and interactive maps.",
-    imageSrc: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=4076&q=80",
-    liveUrl: "#",
+    title: "Luxurious bags site",
+    description: "Al-anaqah is a site focus on louxourious bags.",
+    imageSrc: "https://al-anaqah.com/cdn/shop/files/2.jpg?v=1715696988",
+    liveUrl: "https://al-anaqah.com/",
     githubUrl: "#",
-    techStack: ["JavaScript", "OpenWeather API", "Chart.js", "HTML5", "CSS3"],
+    techStack: ["Shopify", "cms", "HTML5", "CSS3"],
     index: 2
-  }
+  },
 ];
 
 const ProjectsSection: React.FC = () => {

@@ -21,10 +21,10 @@ const skillCategories: SkillCategory[] = [
   {
     title: "Frontend",
     skills: [
-      { name: "React", level: 90, color: "#61DAFB" },
+      { name: "JavaScript", level: 90, color: "#61DAFB" },
       { name: "TypeScript", level: 85, color: "#007ACC" },
-      { name: "JavaScript", level: 95, color: "#F7DF1E" },
-      { name: "HTML/CSS", level: 90, color: "#E34F26" },
+      { name: "reactjs", level: 80, color: "#F7DF1E" },
+      { name: "HTML/CSS", level: 95, color: "#E34F26" },
       { name: "Next.js", level: 80, color: "#000000" },
     ]
   },
@@ -34,7 +34,6 @@ const skillCategories: SkillCategory[] = [
       { name: "Node.js", level: 85, color: "#339933" },
       { name: "Express", level: 80, color: "#000000" },
       { name: "MongoDB", level: 75, color: "#47A248" },
-      { name: "PostgreSQL", level: 70, color: "#336791" },
       { name: "GraphQL", level: 65, color: "#E10098" }
     ]
   },
@@ -42,10 +41,9 @@ const skillCategories: SkillCategory[] = [
     title: "Tools & Others",
     skills: [
       { name: "Git", level: 90, color: "#F05032" },
-      { name: "Docker", level: 70, color: "#2496ED" },
-      { name: "AWS", level: 65, color: "#FF9900" },
-      { name: "Figma", level: 75, color: "#F24E1E" },
-      { name: "Jest", level: 80, color: "#C21325" }
+      { name: "Docker", level: 60, color: "#2496ED" },
+      { name: "Figma", level: 90, color: "#F24E1E" },
+      { name: "Illustrator", level: 90, color: "#3c240c" },
     ]
   }
 ];

@@ -63,7 +63,7 @@ const ProjectCard: React.FC<ProjectProps> = ({
     <div 
       ref={cardRef}
       className={`flex flex-col ${isEven ? 'lg:flex-row' : 'lg:flex-row-reverse'} 
-                 gap-6 lg:gap-10 mb-24 last:mb-0 group`}
+                  gap-6 lg:gap-10 mb-24 last:mb-0 group`}
     >
       <div className="lg:w-3/5 overflow-hidden rounded-lg shadow-lg relative">
         <div className="absolute inset-0 bg-highlight/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
