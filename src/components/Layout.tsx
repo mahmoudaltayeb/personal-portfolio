@@ -1,6 +1,6 @@
-
 import React, { useEffect, useState, useRef } from 'react';
 import { gsap } from 'gsap';
+import { Download } from 'lucide-react';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -81,7 +81,35 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       });
     }
   };
-  
+
+  // Create downloadable content
+  const handleDownload = () => {
+    // Example resume file - in a real app, replace with your actual resume file path
+    const dummyContent = `
+    John Doe
+    Full Stack Developer
+    
+    Experience:
+    - Senior Developer at Tech Corp
+    - Lead Developer at StartupX
+    
+    Skills:
+    - React, TypeScript, Node.js
+    - MongoDB, PostgreSQL
+    - AWS, Docker
+    `;
+
+    const blob = new Blob([dummyContent], { type: 'text/plain' });
+    const url = window.URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'resume.txt';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    window.URL.revokeObjectURL(url);
+  };
+
   return (
     <>
       <nav 
@@ -148,11 +176,20 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         {children}
       </main>
       
-      <footer className="py-8 bg-black text-center">
+      <footer className="py-8 bg-black">
         <div className="container-custom">
-          <p className="text-lightText/60">
-            © {new Date().getFullYear()} Portfolio. All rights reserved.
-          </p>
+          <div className="flex flex-col items-center space-y-4">
+            <button 
+              onClick={handleDownload}
+              className="flex items-center space-x-2 bg-highlight text-darkBg px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+            >
+              <Download size={20} />
+              <span>Download Resume</span>
+            </button>
+            <p className="text-lightText/60">
+              © {new Date().getFullYear()} Portfolio. All rights reserved.
+            </p>
+          </div>
         </div>
       </footer>
     </>
