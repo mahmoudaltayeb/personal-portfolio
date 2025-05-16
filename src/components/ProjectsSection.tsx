@@ -9,7 +9,7 @@ const projects: ProjectProps[] = [
     description: "A full-featured news platform built with next and headless wordpress.",
     imageSrc: "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     liveUrl: "https://alelm.net/",
-    githubUrl: "#",
+    githubUrl: "https://github.com/yourusername/news-platform",
     techStack: ["Next", "Wordpress", "mysql"],
     featured: true,
     index: 0
@@ -18,8 +18,8 @@ const projects: ProjectProps[] = [
     title: "Travel Booking Website ",
     description: "A travel agency site with multilingual support (3 languages). Features include trip listings, detailed itineraries, and a seamless booking system, all designed for an intuitive user experience from scratch.",
     imageSrc: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=3882&q=80",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://example-travel-site.com",
+    githubUrl: "https://github.com/yourusername/travel-booking",
     techStack: ["Wordpress", "Custom theme", "mysql"],
     index: 1
   },
@@ -28,7 +28,7 @@ const projects: ProjectProps[] = [
     description: "Hocus-Pocus is a shopify site sell children toys.",
     imageSrc: "https://hocuspocuseg.com/cdn/shop/files/banner-Recovered.png?v=1745769733&width=1066",
     liveUrl: "https://hocuspocuseg.com",
-    githubUrl: "#",
+    githubUrl: "https://github.com/yourusername/hocuspocus",
     techStack: ["Shopify", "cms", "HTML5", "CSS3"],
     index: 2
   },
