@@ -18,7 +18,7 @@ const projects: ProjectProps[] = [
     title: "Travel Booking Website ",
     description: "A travel agency site with multilingual support (3 languages). Features include trip listings, detailed itineraries, and a seamless booking system, all designed for an intuitive user experience from scratch.",
     imageSrc: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=3882&q=80",
-    liveUrl: "https://example-travel-site.com",
+    liveUrl: "https://albatrosfortours.com",
     githubUrl: "https://github.com/yourusername/travel-booking",
     techStack: ["Wordpress", "Custom theme", "mysql"],
     index: 1
