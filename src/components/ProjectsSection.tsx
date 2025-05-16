@@ -24,10 +24,10 @@ const projects: ProjectProps[] = [
     index: 1
   },
   {
-    title: "Luxurious bags site",
-    description: "Al-anaqah is a site focus on louxourious bags.",
-    imageSrc: "https://al-anaqah.com/cdn/shop/files/2.jpg?v=1715696988",
-    liveUrl: "https://al-anaqah.com/",
+    title: "Childern Toys site",
+    description: "Hocus-Pocus is a shopify site sell children toys.",
+    imageSrc: "https://hocuspocuseg.com/cdn/shop/files/banner-Recovered.png?v=1745769733&width=1066",
+    liveUrl: "https://hocuspocuseg.com",
     githubUrl: "#",
     techStack: ["Shopify", "cms", "HTML5", "CSS3"],
     index: 2
